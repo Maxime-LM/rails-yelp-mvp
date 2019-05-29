@@ -11,3 +11,23 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+h1 {
+  margin: 25px;
+}
+
+form {
+  margin: 25px;
+}
+
+
+#card {
+
+  padding: 20px;
+}
+
+ol {
+  list-style-type: none;
+  margin-left: 15px;
+  padding: 10px;
+}

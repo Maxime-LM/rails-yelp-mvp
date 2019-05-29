@@ -1,0 +1,18 @@
+<h1>The Restaurant</h1>
+
+<div class="card">
+  <div><%= @restaurant.name %></div>
+  <div><%= @restaurant.address %></div>
+  <div><%= @restaurant.phone_number %></div>
+  <div><%= @restaurant.category %></div>
+</div>
+
+
+
+<% @restaurant.reviews.each do |review| %>
+  <li><div class="card"> React : <strong>
+     <%= review.content %></strong>
+     Rating :  <%= review.rating %>
+
+  </div></li>
+<% end %>
